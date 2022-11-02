@@ -1,0 +1,44 @@
+{
+  "uuid": "13e6be23-35ac-42b3-8f33-b9c08d384dcd-tc-0-1000",
+  "name": "nopCommerceAuto_tests.Tests.Login",
+  "children": [
+    "55f326e7-8ab9-4a70-8005-020a8f21fa68-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667411254098,
+      "stop": 1667411254098
+    }
+  ],
+  "afters": [
+    {
+      "name": "endTests",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667411254103,
+      "stop": 1667411254103
+    }
+  ],
+  "links": [],
+  "start": 1667411226334,
+  "stop": 1667411254447
+}

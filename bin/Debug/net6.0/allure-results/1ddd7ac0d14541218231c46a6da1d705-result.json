@@ -1,0 +1,68 @@
+{
+  "uuid": "55f326e7-8ab9-4a70-8005-020a8f21fa68-tr-0-1001",
+  "historyId": "nopCommerceAuto_tests.Tests.Login",
+  "fullName": "nopCommerceAuto_tests.Tests.Login",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "linux-mint-xfce-q3"
+    },
+    {
+      "name": "package",
+      "value": "nopCommerceAuto_tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Login"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    },
+    {
+      "name": "suite",
+      "value": "LoginTest"
+    }
+  ],
+  "links": [],
+  "name": "Login",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Login"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Login",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e9e9a0e852564ac7a564b6b3c939f0e6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667411226337,
+      "stop": 1667411254139
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667411226336,
+  "stop": 1667411254197
+}

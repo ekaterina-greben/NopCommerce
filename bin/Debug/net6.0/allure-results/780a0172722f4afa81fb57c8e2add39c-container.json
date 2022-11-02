@@ -1,0 +1,46 @@
+{
+  "uuid": "8bd27bb4-7670-4156-9d4a-891e76b07b5d-tc-0-1000",
+  "name": "nopCommerceAuto_tests.Tests.Login",
+  "children": [
+    "3f25b486-46c9-44f4-8b10-8fbaca8c8075-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : unknown error: net::ERR_ADDRESS_UNREACHABLE\n  (Session info: MicrosoftEdge=105.0.1343.33)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\n   at nopCommerceAuto_tests.Tests.Setup() in /home/user/Projects/nopCommerceAuto-tests/UnitTest1.cs:line 21"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667382638142,
+      "stop": 1667382638142
+    }
+  ],
+  "afters": [
+    {
+      "name": "endTests",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667382638145,
+      "stop": 1667382638145
+    }
+  ],
+  "links": [],
+  "start": 1667382621684,
+  "stop": 1667382638352
+}
