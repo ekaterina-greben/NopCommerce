@@ -4,6 +4,7 @@ using OpenQA.Selenium.Edge;
 using System.Threading;
 using NUnit.Allure.Core;
 using NUnit.Allure.Attributes;
+using CodeJam;
 
 namespace nopCommerceAuto_tests;
 
@@ -35,6 +36,7 @@ public class Tests
         IWebElement loginField = this.driver.FindElement(By.XPath("//input[@id='Email']"));  
         loginField.Clear();
         loginField.SendKeys("greben@localnet.ua");
+        
 
         // password
         IWebElement passwordField = this.driver.FindElement(By.XPath("//input[@id='Password']"));  
@@ -48,10 +50,18 @@ public class Tests
 
         IWebElement logoutLink = this.driver.FindElement(By.XPath("//a[@class='ico-logout']"));
         System.Console.WriteLine(logoutLink.Text);
-        Assert.That(logoutLink.Text == "LOG OUT", "You are not logged!");
+        Code.BugIf(logoutLink.Text != "LOG OUT", "You are not logged!");
+        // Assert.That(logoutLink.Text == "LOG OUT", "You are not logged!");
         
         Thread.Sleep(3000);
     }
+    
+    [Test]
+    public void PassedTest() {
+        System.Console.WriteLine("Passed test!");
+        Code.BugIf(true != true, "Passed test!");
+    }
+
 
     [TearDown]
     public void endTests() {

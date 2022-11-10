@@ -101,3 +101,4 @@
 /home/user/Projects/nopCommerceAuto-tests/obj/Debug/net6.0/ref/nopCommerceAuto-tests.dll
 /home/user/Projects/nopCommerceAuto-tests/obj/Debug/net6.0/nopCommerceAuto-tests.pdb
 /home/user/Projects/nopCommerceAuto-tests/obj/Debug/net6.0/nopCommerceAuto-tests.genruntimeconfig.cache
+/home/user/Projects/nopCommerceAuto-tests/bin/Debug/net6.0/CodeJam.dll
